@@ -1,4 +1,4 @@
-const heroImg = '/assets/HeroImg.jpeg';
+const heroImg = 'src/assets/hero.jpeg';
 
 export default function Hero() {
   return (
