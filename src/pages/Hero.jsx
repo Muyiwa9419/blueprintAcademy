@@ -1,4 +1,5 @@
-const heroImg = 'src/assets/hero.jpeg';
+import React from 'react';
+import heroImg from '../assets/hero.jpeg'
 
 export default function Hero() {
   return (
