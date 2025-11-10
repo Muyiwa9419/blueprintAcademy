@@ -2,8 +2,8 @@
 import React from 'react';
 
 export default function WhatYou() {
-  const leftList = ['HTML & CSS - Build beautiful layouts', 'JavaScript (ES6+) - Master programming fundamentals', 'Reactjs - Create modern interactive web apps ', 'Responsive Design', 'Responsive Design - Mobile-first approach' , 'Bootstrap'];
-  const rightList = ['Node.js - Server-side development', 'PHP', 'Git & GitHub - Version control mastery', 'Databases (MongoDB) - Store and manage data', 'APIs - Cconnect to external services', 'Authentication', 'Deployment - Launch your projects live'];
+  const leftList = ['HTML & CSS - Build beautiful layouts', 'JavaScript (ES6+) - Master programming fundamentals'];
+  const rightList = ['Node.js - Server-side development', 'PHP', 'Git & GitHub - Version control mastery'];
 
   return (
     <section className="py-12 get bg-slate-50">
@@ -22,8 +22,8 @@ export default function WhatYou() {
           <h3 className="text-xl font-bold">Real Projects You'll Build</h3>
           <div className="mt-4 flex flex-wrap justify-center gap-3">
             <TagButton>Personal Portfolio Website</TagButton>
-            <TagButton>E-commerce</TagButton>
-            <TagButton>Social Media Dashboard</TagButton>
+            <TagButton>Business Website</TagButton>
+            <TagButton>Dashboard Clone</TagButton>
           </div>
         </div>
       </div>

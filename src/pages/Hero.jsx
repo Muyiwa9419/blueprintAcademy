@@ -9,7 +9,7 @@ export default function Hero() {
 
           <div className="bg-white shadow-lg rounded-2xl p-8 lg:p-12">
             <h1 className="text-3xl sm:text-4xl font-extrabold leading-tight">
-              Join The 4-week Bootcamp Basic Programming Training Program
+              Join The 6-week Bootcamp Basic Programming Training Program
               
             </h1>
             <p className="mt-4 text-gray-600">
@@ -27,7 +27,7 @@ export default function Hero() {
             </div>
 
             <div className="mt-6 flex flex-wrap gap-4 text-sm text-gray-700">
-              <Feature icon="watch">12 weeks</Feature>
+              <Feature icon="watch">6 weeks</Feature>
               <Feature icon="people">Small classes</Feature>
               <Feature icon="medal">Certificate included</Feature>
             </div>

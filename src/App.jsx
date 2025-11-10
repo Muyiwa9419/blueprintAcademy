@@ -5,7 +5,7 @@ import Hero from './pages/Hero';
 import Learn from './pages/Learn';
 import WhatYou from './pages/WhatYou';
 import Benefits from './pages/Benefits';
-import Pricing from './pages/Pricing';
+// import Pricing from './pages/Pricing';
 import Footer from './pages/Footer';
 
 export default function App() {
@@ -16,7 +16,7 @@ export default function App() {
       <Learn />
       <WhatYou />
       <Benefits />
-      <Pricing />
+      {/* <Pricing /> */}
       <Footer />
     </div>
   );

@@ -39,8 +39,6 @@ export default function Header() {
           <nav className="flex flex-col space-y-3 px-6 py-4 text-gray-700 font-medium">
             <a href="#home" className="hover:text-blue-600" onClick={() => setIsOpen(false)}>Home</a>
             <a href="#why" className="hover:text-blue-600" onClick={() => setIsOpen(false)}>Why Learn</a>
-            <a href="#curriculum" className="hover:text-blue-600" onClick={() => setIsOpen(false)}>Curriculum</a>
-            <a href="#projects" className="hover:text-blue-600" onClick={() => setIsOpen(false)}>Projects</a>
             <a href="#pricing" className="hover:text-blue-600" onClick={() => setIsOpen(false)}>Pricing</a>
             <a href="#contact" className="hover:text-blue-600" onClick={() => setIsOpen(false)}>Contact</a>
             <a
